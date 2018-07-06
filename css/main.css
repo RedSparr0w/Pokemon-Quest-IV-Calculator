@@ -1,5 +1,6 @@
 body {
   padding-top: 54px;
+  background-image: url(../images/background/yellow-squares.png);
 }
 
 @media (min-width: 992px) {
