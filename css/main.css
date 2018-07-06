@@ -8,3 +8,11 @@ body {
     padding-top: 56px;
   }
 }
+
+.icon {
+  height: 30px;
+}
+
+.invert {
+  filter: invert(1);
+}
