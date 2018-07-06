@@ -26,9 +26,16 @@ function update_IV(){
 function calc_iv(base_attack, current_attack, level){
 	base_attack += level;
 	var diff = current_attack - base_attack;
-	if (diff >= 0 && diff <= 10) return diff * 10 + '% (brass)';
-	else if (diff >= 50 && diff <= 100) return (diff - 50) * 2 + '% (bronze)';
-	else if (diff >= 100 && diff <= 250) return Math.round(((diff - 100) / 150) * 100) + '% (silver)';
-	else if (diff >= 300 && diff <= 400) return diff - 300 + '% (gold)';
-  else return `N/A`;
+	if (diff >= 0 && diff <= 10)
+    return (diff * 10) + '% (brass)';
+	else if (diff >= 50 && diff <= 100)
+    return ((diff - 50) * 2) + '% (bronze)';
+	else if (diff >= 100 && diff <= 250)
+    return Math.round(((diff - 100) / 150) * 100) + '% (silver)';
+	else if (diff >= 251 && diff <= 299)
+    return '¯\\_(ツ)_/¯';
+	else if (diff >= 300 && diff <= 400)
+    return (diff - 300) + '% (gold)';
+  else
+    return `N/A`;
 }
