@@ -1,8 +1,8 @@
 $(document).ready(function(){
-  allPokemon.forEach(function(pokemon, index){
+  Object.keys(allPokemon).forEach(function(pokemon, index){
     $('#pokemon').append($('<option>', {
-      value: index,
-      text : pokemon.name + ' # ' + pokemon.number
+      value: pokemon,
+      text : pokemon + ' #' + allPokemon[pokemon].dex
     }));
   });
   $('#pokemon').change(function(){
