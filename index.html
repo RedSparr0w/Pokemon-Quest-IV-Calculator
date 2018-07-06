@@ -1,0 +1,73 @@
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Pokemon Quest IV Calculator">
+  <meta name="author" content="RedSparr0w">
+  <title>Pokemon Quest IV Calculator</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.css" rel="stylesheet">
+  <link href="./css/main.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <span class="navbar-brand" href="#">Pokemon Quest IV Calculator</span>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <main class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <img id="pokemon_img" src="https://www.serebii.net/quest/pokemon/001.png" class="mt-5"></img>
+        <form>
+          <div class="form-group">
+            <label for="pokemon">Select a pokemon</label>
+            <select name="pokemon" id="pokemon" class="form-control" tabindex="1">
+            </select>
+          </div>
+          <div class="form-group row">
+            <label for="level" class="col-5 col-form-label">Level</label>
+            <input type="number" class="col-5 form-control" name="level" id="level" min="1" max="100" placeholder="50" tabindex="2">
+          </div>
+          <div class="form-group row">
+            <label for="hitpoints" class="col-5 col-form-label">Hit Points</label>
+            <input type="number" class="col-5 form-control" name="hitpoints" id="hitpoints" min="1" max="100" placeholder="150" tabindex="3">
+          </div>
+          <div class="form-group row">
+            <label for="attack" class="col-5 col-form-label">Attack</label>
+            <input type="number" class="col-5 form-control" name="attack" id="attack" min="1" max="100" placeholder="150" tabindex="4">
+          </div>
+        </form>
+        <h4>IV's</h4>
+        <table class="table table-bordered table-dark text-center table-striped">
+          <tbody>
+            <tr></tr>
+            <tr>
+              <th width="50%">Hit Points</th>
+              <th width="50%">Attack</th>
+            </tr>
+            <tr>
+              <td id="hp_iv">N/A</td>
+              <td id="att_iv">N/A</td>
+            </tr>
+            <tr>
+              <th colspan="2">Total</th>
+            </tr>
+            <tr>
+              <td colspan="2" id="total_iv">N/A</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="./js/pokemon.js"></script>
+  <script src="./js/main.js"></script>
+</body>
