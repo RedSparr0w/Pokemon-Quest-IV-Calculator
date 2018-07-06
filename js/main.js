@@ -50,7 +50,7 @@ function calcIV(base_attack, current_attack, level){
 	else if (diff >= 50 && diff <= 100) // Bronze Pot
     return ((diff - 50) * 2) + '% (bronze)';
 	else if (diff >= 100 && diff <= 250) // Silver Pot (serebii says it's a range of 100, but i have multiple pokemon in the range of 150 - mobile edition)
-    return Math.round(((diff - 100) / 150) * 100) + '% (silver)';
+    return (diff - 150) + '% (silver)';
 	else if (diff >= 251 && diff <= 299) // No pokemon should be in this range (maybe silver, but have yet to find any)
     return '¯\\_(ツ)_/¯';
 	else if (diff >= 300 && diff <= 400) // Gold Pot
