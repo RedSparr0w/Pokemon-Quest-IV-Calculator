@@ -16,6 +16,7 @@ $(document).ready(function(){
     pokemon = allPokemon[pokemon];
 
     // Update image top currently selected pokemon
+    document.getElementById('pokemon_img').src = 'images/icons/pokeball.svg';
     document.getElementById('pokemon_img').src = 'images/pokemon/' + pokemon.dex + '.svg';
 
     var hitpoints = document.getElementById('hitpoints'),
