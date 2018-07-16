@@ -8,7 +8,12 @@ $(document).ready(function(){
   });
 
   $('#pokemon').change(function(){
-    var pokemon = allPokemon[$(this).val()];
+    var pokemon = document.getElementById('pokemon').value;
+    // Remember last selected pokemon
+    if (window.localStorage){
+      window.localStorage.pokemon = pokemon;
+    }
+    pokemon = allPokemon[pokemon];
 
     // Update image top currently selected pokemon
     document.getElementById('pokemon_img').src = pokemon.img
@@ -29,6 +34,12 @@ $(document).ready(function(){
   $('input').change(function(){
     updateFields();
   })
+
+  // Set to last selected pokemon
+  if (window.localStorage){
+    document.getElementById('pokemon').value = window.localStorage.pokemon || 'Bulbasaur';
+  }
+  $('#pokemon').change();
 });
 
 function updateFields(){
