@@ -17,9 +17,12 @@ $(document).ready(function(){
     document.getElementById('hitpoints').placeholder = pokemon['hitpoints'] + ' - ' + (pokemon['hitpoints'] + 500);
     document.getElementById('hitpoints').min = pokemon['hitpoints'];
     document.getElementById('hitpoints').max = pokemon['hitpoints'] + 500;
+    document.getElementById('hitpoints').value = '';
     document.getElementById('attack').placeholder = pokemon['attack'] + ' - ' + (pokemon['attack'] + 500);
     document.getElementById('attack').min = pokemon['attack'];
     document.getElementById('attack').max = pokemon['attack'] + 500;
+    document.getElementById('attack').value = '';
+    document.getElementById('level').value = '';
 
     updateFields();
   });
