@@ -59,5 +59,5 @@ function calcIV(base_attack, current_attack, level){
 	else if (diff >= 300 && diff <= 400) // Gold Pot
     return (diff - 300) + '% (gold)';
   else // Still entering value ?
-    return `N/A`;
+    return 'N/A';
 }
