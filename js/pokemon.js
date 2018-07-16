@@ -28,7 +28,6 @@ allPokemon = {
   "Bulbasaur": {
     "dex": "001",
     "number": 1,
-    "img": "https://www.serebii.net/quest/pokemon/001.png",
     "types": [
       "grass",
       "poison"
@@ -41,7 +40,6 @@ allPokemon = {
   "Ivysaur": {
     "dex": "002",
     "number": 2,
-    "img": "https://www.serebii.net/quest/pokemon/002.png",
     "types": [
       "grass",
       "poison"
@@ -54,7 +52,6 @@ allPokemon = {
   "Venusaur": {
     "dex": "003",
     "number": 3,
-    "img": "https://www.serebii.net/quest/pokemon/003.png",
     "types": [
       "grass",
       "poison"
@@ -67,7 +64,6 @@ allPokemon = {
   "Charmander": {
     "dex": "004",
     "number": 4,
-    "img": "https://www.serebii.net/quest/pokemon/004.png",
     "types": [
       "fire"
     ],
@@ -79,7 +75,6 @@ allPokemon = {
   "Charmeleon": {
     "dex": "005",
     "number": 5,
-    "img": "https://www.serebii.net/quest/pokemon/005.png",
     "types": [
       "fire"
     ],
@@ -91,7 +86,6 @@ allPokemon = {
   "Charizard": {
     "dex": "006",
     "number": 6,
-    "img": "https://www.serebii.net/quest/pokemon/006.png",
     "types": [
       "fire",
       "flying"
@@ -104,7 +98,6 @@ allPokemon = {
   "Squirtle": {
     "dex": "007",
     "number": 7,
-    "img": "https://www.serebii.net/quest/pokemon/007.png",
     "types": [
       "water"
     ],
@@ -116,7 +109,6 @@ allPokemon = {
   "Wartortle": {
     "dex": "008",
     "number": 8,
-    "img": "https://www.serebii.net/quest/pokemon/008.png",
     "types": [
       "water"
     ],
@@ -128,7 +120,6 @@ allPokemon = {
   "Blastoise": {
     "dex": "009",
     "number": 9,
-    "img": "https://www.serebii.net/quest/pokemon/009.png",
     "types": [
       "water"
     ],
@@ -140,7 +131,6 @@ allPokemon = {
   "Caterpie": {
     "dex": "010",
     "number": 10,
-    "img": "https://www.serebii.net/quest/pokemon/010.png",
     "types": [
       "bug"
     ],
@@ -152,7 +142,6 @@ allPokemon = {
   "Metapod": {
     "dex": "011",
     "number": 11,
-    "img": "https://www.serebii.net/quest/pokemon/011.png",
     "types": [
       "bug"
     ],
@@ -164,7 +153,6 @@ allPokemon = {
   "Butterfree": {
     "dex": "012",
     "number": 12,
-    "img": "https://www.serebii.net/quest/pokemon/012.png",
     "types": [
       "bug",
       "flying"
@@ -177,7 +165,6 @@ allPokemon = {
   "Weedle": {
     "dex": "013",
     "number": 13,
-    "img": "https://www.serebii.net/quest/pokemon/013.png",
     "types": [
       "bug",
       "poison"
@@ -190,7 +177,6 @@ allPokemon = {
   "Kakuna": {
     "dex": "014",
     "number": 14,
-    "img": "https://www.serebii.net/quest/pokemon/014.png",
     "types": [
       "bug",
       "poison"
@@ -203,7 +189,6 @@ allPokemon = {
   "Beedrill": {
     "dex": "015",
     "number": 15,
-    "img": "https://www.serebii.net/quest/pokemon/015.png",
     "types": [
       "bug",
       "poison"
@@ -216,7 +201,6 @@ allPokemon = {
   "Pidgey": {
     "dex": "016",
     "number": 16,
-    "img": "https://www.serebii.net/quest/pokemon/016.png",
     "types": [
       "normal",
       "flying"
@@ -229,7 +213,6 @@ allPokemon = {
   "Pidgeotto": {
     "dex": "017",
     "number": 17,
-    "img": "https://www.serebii.net/quest/pokemon/017.png",
     "types": [
       "normal",
       "flying"
@@ -242,7 +225,6 @@ allPokemon = {
   "Pidgeot": {
     "dex": "018",
     "number": 18,
-    "img": "https://www.serebii.net/quest/pokemon/018.png",
     "types": [
       "normal",
       "flying"
@@ -255,7 +237,6 @@ allPokemon = {
   "Rattata": {
     "dex": "019",
     "number": 19,
-    "img": "https://www.serebii.net/quest/pokemon/019.png",
     "types": [
       "normal"
     ],
@@ -267,7 +248,6 @@ allPokemon = {
   "Raticate": {
     "dex": "020",
     "number": 20,
-    "img": "https://www.serebii.net/quest/pokemon/020.png",
     "types": [
       "normal"
     ],
@@ -279,7 +259,6 @@ allPokemon = {
   "Spearow": {
     "dex": "021",
     "number": 21,
-    "img": "https://www.serebii.net/quest/pokemon/021.png",
     "types": [
       "normal",
       "flying"
@@ -292,7 +271,6 @@ allPokemon = {
   "Fearow": {
     "dex": "022",
     "number": 22,
-    "img": "https://www.serebii.net/quest/pokemon/022.png",
     "types": [
       "normal",
       "flying"
@@ -305,7 +283,6 @@ allPokemon = {
   "Ekans": {
     "dex": "023",
     "number": 23,
-    "img": "https://www.serebii.net/quest/pokemon/023.png",
     "types": [
       "poison"
     ],
@@ -317,7 +294,6 @@ allPokemon = {
   "Arbok": {
     "dex": "024",
     "number": 24,
-    "img": "https://www.serebii.net/quest/pokemon/024.png",
     "types": [
       "poison"
     ],
@@ -329,7 +305,6 @@ allPokemon = {
   "Pikachu": {
     "dex": "025",
     "number": 25,
-    "img": "https://www.serebii.net/quest/pokemon/025.png",
     "types": [
       "electric"
     ],
@@ -341,7 +316,6 @@ allPokemon = {
   "Raichu": {
     "dex": "026",
     "number": 26,
-    "img": "https://www.serebii.net/quest/pokemon/026.png",
     "types": [
       "electric"
     ],
@@ -353,7 +327,6 @@ allPokemon = {
   "Sandshrew": {
     "dex": "027",
     "number": 27,
-    "img": "https://www.serebii.net/quest/pokemon/027.png",
     "types": [
       "ground"
     ],
@@ -365,7 +338,6 @@ allPokemon = {
   "Sandslash": {
     "dex": "028",
     "number": 28,
-    "img": "https://www.serebii.net/quest/pokemon/028.png",
     "types": [
       "ground"
     ],
@@ -377,7 +349,6 @@ allPokemon = {
   "Nidoran♀": {
     "dex": "029",
     "number": 29,
-    "img": "https://www.serebii.net/quest/pokemon/029.png",
     "types": [
       "poison"
     ],
@@ -389,7 +360,6 @@ allPokemon = {
   "Nidorina": {
     "dex": "030",
     "number": 30,
-    "img": "https://www.serebii.net/quest/pokemon/030.png",
     "types": [
       "poison"
     ],
@@ -401,7 +371,6 @@ allPokemon = {
   "Nidoqueen": {
     "dex": "031",
     "number": 31,
-    "img": "https://www.serebii.net/quest/pokemon/031.png",
     "types": [
       "poison",
       "ground"
@@ -414,7 +383,6 @@ allPokemon = {
   "Nidoran♂": {
     "dex": "032",
     "number": 32,
-    "img": "https://www.serebii.net/quest/pokemon/032.png",
     "types": [
       "poison"
     ],
@@ -426,7 +394,6 @@ allPokemon = {
   "Nidorino": {
     "dex": "033",
     "number": 33,
-    "img": "https://www.serebii.net/quest/pokemon/033.png",
     "types": [
       "poison"
     ],
@@ -438,7 +405,6 @@ allPokemon = {
   "Nidoking": {
     "dex": "034",
     "number": 34,
-    "img": "https://www.serebii.net/quest/pokemon/034.png",
     "types": [
       "poison",
       "ground"
@@ -451,7 +417,6 @@ allPokemon = {
   "Clefairy": {
     "dex": "035",
     "number": 35,
-    "img": "https://www.serebii.net/quest/pokemon/035.png",
     "types": [
       "fairy"
     ],
@@ -463,7 +428,6 @@ allPokemon = {
   "Clefable": {
     "dex": "036",
     "number": 36,
-    "img": "https://www.serebii.net/quest/pokemon/036.png",
     "types": [
       "fairy"
     ],
@@ -475,7 +439,6 @@ allPokemon = {
   "Vulpix": {
     "dex": "037",
     "number": 37,
-    "img": "https://www.serebii.net/quest/pokemon/037.png",
     "types": [
       "fire"
     ],
@@ -487,7 +450,6 @@ allPokemon = {
   "Ninetales": {
     "dex": "038",
     "number": 38,
-    "img": "https://www.serebii.net/quest/pokemon/038.png",
     "types": [
       "fire"
     ],
@@ -499,7 +461,6 @@ allPokemon = {
   "Jigglypuff": {
     "dex": "039",
     "number": 39,
-    "img": "https://www.serebii.net/quest/pokemon/039.png",
     "types": [
       "normal",
       "fairy"
@@ -512,7 +473,6 @@ allPokemon = {
   "Wigglytuff": {
     "dex": "040",
     "number": 40,
-    "img": "https://www.serebii.net/quest/pokemon/040.png",
     "types": [
       "normal",
       "fairy"
@@ -525,7 +485,6 @@ allPokemon = {
   "Zubat": {
     "dex": "041",
     "number": 41,
-    "img": "https://www.serebii.net/quest/pokemon/041.png",
     "types": [
       "poison",
       "flying"
@@ -538,7 +497,6 @@ allPokemon = {
   "Golbat": {
     "dex": "042",
     "number": 42,
-    "img": "https://www.serebii.net/quest/pokemon/042.png",
     "types": [
       "poison",
       "flying"
@@ -551,7 +509,6 @@ allPokemon = {
   "Oddish": {
     "dex": "043",
     "number": 43,
-    "img": "https://www.serebii.net/quest/pokemon/043.png",
     "types": [
       "grass",
       "poison"
@@ -564,7 +521,6 @@ allPokemon = {
   "Gloom": {
     "dex": "044",
     "number": 44,
-    "img": "https://www.serebii.net/quest/pokemon/044.png",
     "types": [
       "grass",
       "poison"
@@ -577,7 +533,6 @@ allPokemon = {
   "Vileplume": {
     "dex": "045",
     "number": 45,
-    "img": "https://www.serebii.net/quest/pokemon/045.png",
     "types": [
       "grass",
       "poison"
@@ -590,7 +545,6 @@ allPokemon = {
   "Paras": {
     "dex": "046",
     "number": 46,
-    "img": "https://www.serebii.net/quest/pokemon/046.png",
     "types": [
       "bug",
       "grass"
@@ -603,7 +557,6 @@ allPokemon = {
   "Parasect": {
     "dex": "047",
     "number": 47,
-    "img": "https://www.serebii.net/quest/pokemon/047.png",
     "types": [
       "bug",
       "grass"
@@ -616,7 +569,6 @@ allPokemon = {
   "Venonat": {
     "dex": "048",
     "number": 48,
-    "img": "https://www.serebii.net/quest/pokemon/048.png",
     "types": [
       "bug",
       "poison"
@@ -629,7 +581,6 @@ allPokemon = {
   "Venomoth": {
     "dex": "049",
     "number": 49,
-    "img": "https://www.serebii.net/quest/pokemon/049.png",
     "types": [
       "bug",
       "poison"
@@ -642,7 +593,6 @@ allPokemon = {
   "Diglett": {
     "dex": "050",
     "number": 50,
-    "img": "https://www.serebii.net/quest/pokemon/050.png",
     "types": [
       "ground"
     ],
@@ -654,7 +604,6 @@ allPokemon = {
   "Dugtrio": {
     "dex": "051",
     "number": 51,
-    "img": "https://www.serebii.net/quest/pokemon/051.png",
     "types": [
       "ground"
     ],
@@ -666,7 +615,6 @@ allPokemon = {
   "Meowth": {
     "dex": "052",
     "number": 52,
-    "img": "https://www.serebii.net/quest/pokemon/052.png",
     "types": [
       "normal"
     ],
@@ -678,7 +626,6 @@ allPokemon = {
   "Persian": {
     "dex": "053",
     "number": 53,
-    "img": "https://www.serebii.net/quest/pokemon/053.png",
     "types": [
       "normal"
     ],
@@ -690,7 +637,6 @@ allPokemon = {
   "Psyduck": {
     "dex": "054",
     "number": 54,
-    "img": "https://www.serebii.net/quest/pokemon/054.png",
     "types": [
       "water"
     ],
@@ -702,7 +648,6 @@ allPokemon = {
   "Golduck": {
     "dex": "055",
     "number": 55,
-    "img": "https://www.serebii.net/quest/pokemon/055.png",
     "types": [
       "water"
     ],
@@ -714,7 +659,6 @@ allPokemon = {
   "Mankey": {
     "dex": "056",
     "number": 56,
-    "img": "https://www.serebii.net/quest/pokemon/056.png",
     "types": [
       "fighting"
     ],
@@ -726,7 +670,6 @@ allPokemon = {
   "Primeape": {
     "dex": "057",
     "number": 57,
-    "img": "https://www.serebii.net/quest/pokemon/057.png",
     "types": [
       "fighting"
     ],
@@ -738,7 +681,6 @@ allPokemon = {
   "Growlithe": {
     "dex": "058",
     "number": 58,
-    "img": "https://www.serebii.net/quest/pokemon/058.png",
     "types": [
       "fire"
     ],
@@ -750,7 +692,6 @@ allPokemon = {
   "Arcanine": {
     "dex": "059",
     "number": 59,
-    "img": "https://www.serebii.net/quest/pokemon/059.png",
     "types": [
       "fire"
     ],
@@ -762,7 +703,6 @@ allPokemon = {
   "Poliwag": {
     "dex": "060",
     "number": 60,
-    "img": "https://www.serebii.net/quest/pokemon/060.png",
     "types": [
       "water"
     ],
@@ -774,7 +714,6 @@ allPokemon = {
   "Poliwhirl": {
     "dex": "061",
     "number": 61,
-    "img": "https://www.serebii.net/quest/pokemon/061.png",
     "types": [
       "water"
     ],
@@ -786,7 +725,6 @@ allPokemon = {
   "Poliwrath": {
     "dex": "062",
     "number": 62,
-    "img": "https://www.serebii.net/quest/pokemon/062.png",
     "types": [
       "water",
       "fighting"
@@ -799,7 +737,6 @@ allPokemon = {
   "Abra": {
     "dex": "063",
     "number": 63,
-    "img": "https://www.serebii.net/quest/pokemon/063.png",
     "types": [
       "psychic"
     ],
@@ -811,7 +748,6 @@ allPokemon = {
   "Kadabra": {
     "dex": "064",
     "number": 64,
-    "img": "https://www.serebii.net/quest/pokemon/064.png",
     "types": [
       "psychic"
     ],
@@ -823,7 +759,6 @@ allPokemon = {
   "Alakazam": {
     "dex": "065",
     "number": 65,
-    "img": "https://www.serebii.net/quest/pokemon/065.png",
     "types": [
       "psychic"
     ],
@@ -835,7 +770,6 @@ allPokemon = {
   "Machop": {
     "dex": "066",
     "number": 66,
-    "img": "https://www.serebii.net/quest/pokemon/066.png",
     "types": [
       "fighting"
     ],
@@ -847,7 +781,6 @@ allPokemon = {
   "Machoke": {
     "dex": "067",
     "number": 67,
-    "img": "https://www.serebii.net/quest/pokemon/067.png",
     "types": [
       "fighting"
     ],
@@ -859,7 +792,6 @@ allPokemon = {
   "Machamp": {
     "dex": "068",
     "number": 68,
-    "img": "https://www.serebii.net/quest/pokemon/068.png",
     "types": [
       "fighting"
     ],
@@ -871,7 +803,6 @@ allPokemon = {
   "Bellsprout": {
     "dex": "069",
     "number": 69,
-    "img": "https://www.serebii.net/quest/pokemon/069.png",
     "types": [
       "grass",
       "poison"
@@ -884,7 +815,6 @@ allPokemon = {
   "Weepinbell": {
     "dex": "070",
     "number": 70,
-    "img": "https://www.serebii.net/quest/pokemon/070.png",
     "types": [
       "grass",
       "poison"
@@ -897,7 +827,6 @@ allPokemon = {
   "Victreebel": {
     "dex": "071",
     "number": 71,
-    "img": "https://www.serebii.net/quest/pokemon/071.png",
     "types": [
       "grass",
       "poison"
@@ -910,7 +839,6 @@ allPokemon = {
   "Tentacool": {
     "dex": "072",
     "number": 72,
-    "img": "https://www.serebii.net/quest/pokemon/072.png",
     "types": [
       "water",
       "poison"
@@ -923,7 +851,6 @@ allPokemon = {
   "Tentacruel": {
     "dex": "073",
     "number": 73,
-    "img": "https://www.serebii.net/quest/pokemon/073.png",
     "types": [
       "water",
       "poison"
@@ -936,7 +863,6 @@ allPokemon = {
   "Geodude": {
     "dex": "074",
     "number": 74,
-    "img": "https://www.serebii.net/quest/pokemon/074.png",
     "types": [
       "rock",
       "ground"
@@ -949,7 +875,6 @@ allPokemon = {
   "Graveler": {
     "dex": "075",
     "number": 75,
-    "img": "https://www.serebii.net/quest/pokemon/075.png",
     "types": [
       "rock",
       "ground"
@@ -962,7 +887,6 @@ allPokemon = {
   "Golem": {
     "dex": "076",
     "number": 76,
-    "img": "https://www.serebii.net/quest/pokemon/076.png",
     "types": [
       "rock",
       "ground"
@@ -975,7 +899,6 @@ allPokemon = {
   "Ponyta": {
     "dex": "077",
     "number": 77,
-    "img": "https://www.serebii.net/quest/pokemon/077.png",
     "types": [
       "fire"
     ],
@@ -987,7 +910,6 @@ allPokemon = {
   "Rapidash": {
     "dex": "078",
     "number": 78,
-    "img": "https://www.serebii.net/quest/pokemon/078.png",
     "types": [
       "fire"
     ],
@@ -999,7 +921,6 @@ allPokemon = {
   "Slowpoke": {
     "dex": "079",
     "number": 79,
-    "img": "https://www.serebii.net/quest/pokemon/079.png",
     "types": [
       "water",
       "psychic"
@@ -1012,7 +933,6 @@ allPokemon = {
   "Slowbro": {
     "dex": "080",
     "number": 80,
-    "img": "https://www.serebii.net/quest/pokemon/080.png",
     "types": [
       "water",
       "psychic"
@@ -1025,7 +945,6 @@ allPokemon = {
   "Magnemite": {
     "dex": "081",
     "number": 81,
-    "img": "https://www.serebii.net/quest/pokemon/081.png",
     "types": [
       "electric",
       "steel"
@@ -1038,7 +957,6 @@ allPokemon = {
   "Magneton": {
     "dex": "082",
     "number": 82,
-    "img": "https://www.serebii.net/quest/pokemon/082.png",
     "types": [
       "electric",
       "steel"
@@ -1051,7 +969,6 @@ allPokemon = {
   "Farfetch'd": {
     "dex": "083",
     "number": 83,
-    "img": "https://www.serebii.net/quest/pokemon/083.png",
     "types": [
       "normal",
       "flying"
@@ -1064,7 +981,6 @@ allPokemon = {
   "Doduo": {
     "dex": "084",
     "number": 84,
-    "img": "https://www.serebii.net/quest/pokemon/084.png",
     "types": [
       "normal",
       "flying"
@@ -1077,7 +993,6 @@ allPokemon = {
   "Dodrio": {
     "dex": "085",
     "number": 85,
-    "img": "https://www.serebii.net/quest/pokemon/085.png",
     "types": [
       "normal",
       "flying"
@@ -1090,7 +1005,6 @@ allPokemon = {
   "Seel": {
     "dex": "086",
     "number": 86,
-    "img": "https://www.serebii.net/quest/pokemon/086.png",
     "types": [
       "water"
     ],
@@ -1102,7 +1016,6 @@ allPokemon = {
   "Dewgong": {
     "dex": "087",
     "number": 87,
-    "img": "https://www.serebii.net/quest/pokemon/087.png",
     "types": [
       "water",
       "ice"
@@ -1115,7 +1028,6 @@ allPokemon = {
   "Grimer": {
     "dex": "088",
     "number": 88,
-    "img": "https://www.serebii.net/quest/pokemon/088.png",
     "types": [
       "poison"
     ],
@@ -1127,7 +1039,6 @@ allPokemon = {
   "Muk": {
     "dex": "089",
     "number": 89,
-    "img": "https://www.serebii.net/quest/pokemon/089.png",
     "types": [
       "poison"
     ],
@@ -1139,7 +1050,6 @@ allPokemon = {
   "Shellder": {
     "dex": "090",
     "number": 90,
-    "img": "https://www.serebii.net/quest/pokemon/090.png",
     "types": [
       "water"
     ],
@@ -1151,7 +1061,6 @@ allPokemon = {
   "Cloyster": {
     "dex": "091",
     "number": 91,
-    "img": "https://www.serebii.net/quest/pokemon/091.png",
     "types": [
       "water",
       "ice"
@@ -1164,7 +1073,6 @@ allPokemon = {
   "Gastly": {
     "dex": "092",
     "number": 92,
-    "img": "https://www.serebii.net/quest/pokemon/092.png",
     "types": [
       "ghost",
       "poison"
@@ -1177,7 +1085,6 @@ allPokemon = {
   "Haunter": {
     "dex": "093",
     "number": 93,
-    "img": "https://www.serebii.net/quest/pokemon/093.png",
     "types": [
       "ghost",
       "poison"
@@ -1190,7 +1097,6 @@ allPokemon = {
   "Gengar": {
     "dex": "094",
     "number": 94,
-    "img": "https://www.serebii.net/quest/pokemon/094.png",
     "types": [
       "ghost",
       "poison"
@@ -1203,7 +1109,6 @@ allPokemon = {
   "Onix": {
     "dex": "095",
     "number": 95,
-    "img": "https://www.serebii.net/quest/pokemon/095.png",
     "types": [
       "rock",
       "ground"
@@ -1216,7 +1121,6 @@ allPokemon = {
   "Drowzee": {
     "dex": "096",
     "number": 96,
-    "img": "https://www.serebii.net/quest/pokemon/096.png",
     "types": [
       "psychic"
     ],
@@ -1228,7 +1132,6 @@ allPokemon = {
   "Hypno": {
     "dex": "097",
     "number": 97,
-    "img": "https://www.serebii.net/quest/pokemon/097.png",
     "types": [
       "psychic"
     ],
@@ -1240,7 +1143,6 @@ allPokemon = {
   "Krabby": {
     "dex": "098",
     "number": 98,
-    "img": "https://www.serebii.net/quest/pokemon/098.png",
     "types": [
       "water"
     ],
@@ -1252,7 +1154,6 @@ allPokemon = {
   "Kingler": {
     "dex": "099",
     "number": 99,
-    "img": "https://www.serebii.net/quest/pokemon/099.png",
     "types": [
       "water"
     ],
@@ -1264,7 +1165,6 @@ allPokemon = {
   "Voltorb": {
     "dex": "100",
     "number": 100,
-    "img": "https://www.serebii.net/quest/pokemon/100.png",
     "types": [
       "electric"
     ],
@@ -1276,7 +1176,6 @@ allPokemon = {
   "Electrode": {
     "dex": "101",
     "number": 101,
-    "img": "https://www.serebii.net/quest/pokemon/101.png",
     "types": [
       "electric"
     ],
@@ -1288,7 +1187,6 @@ allPokemon = {
   "Exeggcute": {
     "dex": "102",
     "number": 102,
-    "img": "https://www.serebii.net/quest/pokemon/102.png",
     "types": [
       "grass",
       "psychic"
@@ -1301,7 +1199,6 @@ allPokemon = {
   "Exeggutor": {
     "dex": "103",
     "number": 103,
-    "img": "https://www.serebii.net/quest/pokemon/103.png",
     "types": [
       "grass",
       "psychic"
@@ -1314,7 +1211,6 @@ allPokemon = {
   "Cubone": {
     "dex": "104",
     "number": 104,
-    "img": "https://www.serebii.net/quest/pokemon/104.png",
     "types": [
       "ground"
     ],
@@ -1326,7 +1222,6 @@ allPokemon = {
   "Marowak": {
     "dex": "105",
     "number": 105,
-    "img": "https://www.serebii.net/quest/pokemon/105.png",
     "types": [
       "ground"
     ],
@@ -1338,7 +1233,6 @@ allPokemon = {
   "Hitmonlee": {
     "dex": "106",
     "number": 106,
-    "img": "https://www.serebii.net/quest/pokemon/106.png",
     "types": [
       "fighting"
     ],
@@ -1350,7 +1244,6 @@ allPokemon = {
   "Hitmonchan": {
     "dex": "107",
     "number": 107,
-    "img": "https://www.serebii.net/quest/pokemon/107.png",
     "types": [
       "fighting"
     ],
@@ -1362,7 +1255,6 @@ allPokemon = {
   "Lickitung": {
     "dex": "108",
     "number": 108,
-    "img": "https://www.serebii.net/quest/pokemon/108.png",
     "types": [
       "normal"
     ],
@@ -1374,7 +1266,6 @@ allPokemon = {
   "Koffing": {
     "dex": "109",
     "number": 109,
-    "img": "https://www.serebii.net/quest/pokemon/109.png",
     "types": [
       "poison"
     ],
@@ -1386,7 +1277,6 @@ allPokemon = {
   "Weezing": {
     "dex": "110",
     "number": 110,
-    "img": "https://www.serebii.net/quest/pokemon/110.png",
     "types": [
       "poison"
     ],
@@ -1398,7 +1288,6 @@ allPokemon = {
   "Rhyhorn": {
     "dex": "111",
     "number": 111,
-    "img": "https://www.serebii.net/quest/pokemon/111.png",
     "types": [
       "ground",
       "rock"
@@ -1411,7 +1300,6 @@ allPokemon = {
   "Rhydon": {
     "dex": "112",
     "number": 112,
-    "img": "https://www.serebii.net/quest/pokemon/112.png",
     "types": [
       "ground",
       "rock"
@@ -1424,7 +1312,6 @@ allPokemon = {
   "Chansey": {
     "dex": "113",
     "number": 113,
-    "img": "https://www.serebii.net/quest/pokemon/113.png",
     "types": [
       "normal"
     ],
@@ -1436,7 +1323,6 @@ allPokemon = {
   "Tangela": {
     "dex": "114",
     "number": 114,
-    "img": "https://www.serebii.net/quest/pokemon/114.png",
     "types": [
       "grass"
     ],
@@ -1448,7 +1334,6 @@ allPokemon = {
   "Kangaskhan": {
     "dex": "115",
     "number": 115,
-    "img": "https://www.serebii.net/quest/pokemon/115.png",
     "types": [
       "normal"
     ],
@@ -1460,7 +1345,6 @@ allPokemon = {
   "Horsea": {
     "dex": "116",
     "number": 116,
-    "img": "https://www.serebii.net/quest/pokemon/116.png",
     "types": [
       "water"
     ],
@@ -1472,7 +1356,6 @@ allPokemon = {
   "Seadra": {
     "dex": "117",
     "number": 117,
-    "img": "https://www.serebii.net/quest/pokemon/117.png",
     "types": [
       "water"
     ],
@@ -1484,7 +1367,6 @@ allPokemon = {
   "Goldeen": {
     "dex": "118",
     "number": 118,
-    "img": "https://www.serebii.net/quest/pokemon/118.png",
     "types": [
       "water"
     ],
@@ -1496,7 +1378,6 @@ allPokemon = {
   "Seaking": {
     "dex": "119",
     "number": 119,
-    "img": "https://www.serebii.net/quest/pokemon/119.png",
     "types": [
       "water"
     ],
@@ -1508,7 +1389,6 @@ allPokemon = {
   "Staryu": {
     "dex": "120",
     "number": 120,
-    "img": "https://www.serebii.net/quest/pokemon/120.png",
     "types": [
       "water"
     ],
@@ -1520,7 +1400,6 @@ allPokemon = {
   "Starmie": {
     "dex": "121",
     "number": 121,
-    "img": "https://www.serebii.net/quest/pokemon/121.png",
     "types": [
       "water",
       "psychic"
@@ -1533,7 +1412,6 @@ allPokemon = {
   "Mr. Mime": {
     "dex": "122",
     "number": 122,
-    "img": "https://www.serebii.net/quest/pokemon/122.png",
     "types": [
       "psychic",
       "fairy"
@@ -1546,7 +1424,6 @@ allPokemon = {
   "Scyther": {
     "dex": "123",
     "number": 123,
-    "img": "https://www.serebii.net/quest/pokemon/123.png",
     "types": [
       "bug",
       "flying"
@@ -1559,7 +1436,6 @@ allPokemon = {
   "Jynx": {
     "dex": "124",
     "number": 124,
-    "img": "https://www.serebii.net/quest/pokemon/124.png",
     "types": [
       "ice",
       "psychic"
@@ -1572,7 +1448,6 @@ allPokemon = {
   "Electabuzz": {
     "dex": "125",
     "number": 125,
-    "img": "https://www.serebii.net/quest/pokemon/125.png",
     "types": [
       "electric"
     ],
@@ -1584,7 +1459,6 @@ allPokemon = {
   "Magmar": {
     "dex": "126",
     "number": 126,
-    "img": "https://www.serebii.net/quest/pokemon/126.png",
     "types": [
       "fire"
     ],
@@ -1596,7 +1470,6 @@ allPokemon = {
   "Pinsir": {
     "dex": "127",
     "number": 127,
-    "img": "https://www.serebii.net/quest/pokemon/127.png",
     "types": [
       "bug"
     ],
@@ -1608,7 +1481,6 @@ allPokemon = {
   "Tauros": {
     "dex": "128",
     "number": 128,
-    "img": "https://www.serebii.net/quest/pokemon/128.png",
     "types": [
       "normal"
     ],
@@ -1620,7 +1492,6 @@ allPokemon = {
   "Magikarp": {
     "dex": "129",
     "number": 129,
-    "img": "https://www.serebii.net/quest/pokemon/129.png",
     "types": [
       "water"
     ],
@@ -1632,7 +1503,6 @@ allPokemon = {
   "Gyarados": {
     "dex": "130",
     "number": 130,
-    "img": "https://www.serebii.net/quest/pokemon/130.png",
     "types": [
       "water",
       "flying"
@@ -1645,7 +1515,6 @@ allPokemon = {
   "Lapras": {
     "dex": "131",
     "number": 131,
-    "img": "https://www.serebii.net/quest/pokemon/131.png",
     "types": [
       "water",
       "ice"
@@ -1658,7 +1527,6 @@ allPokemon = {
   "Ditto": {
     "dex": "132",
     "number": 132,
-    "img": "https://www.serebii.net/quest/pokemon/132.png",
     "types": [
       "normal"
     ],
@@ -1670,7 +1538,6 @@ allPokemon = {
   "Eevee": {
     "dex": "133",
     "number": 133,
-    "img": "https://www.serebii.net/quest/pokemon/133.png",
     "types": [
       "normal"
     ],
@@ -1682,7 +1549,6 @@ allPokemon = {
   "Vaporeon": {
     "dex": "134",
     "number": 134,
-    "img": "https://www.serebii.net/quest/pokemon/134.png",
     "types": [
       "water"
     ],
@@ -1694,7 +1560,6 @@ allPokemon = {
   "Jolteon": {
     "dex": "135",
     "number": 135,
-    "img": "https://www.serebii.net/quest/pokemon/135.png",
     "types": [
       "electric"
     ],
@@ -1706,7 +1571,6 @@ allPokemon = {
   "Flareon": {
     "dex": "136",
     "number": 136,
-    "img": "https://www.serebii.net/quest/pokemon/136.png",
     "types": [
       "fire"
     ],
@@ -1718,7 +1582,6 @@ allPokemon = {
   "Porygon": {
     "dex": "137",
     "number": 137,
-    "img": "https://www.serebii.net/quest/pokemon/137.png",
     "types": [
       "normal"
     ],
@@ -1730,7 +1593,6 @@ allPokemon = {
   "Omanyte": {
     "dex": "138",
     "number": 138,
-    "img": "https://www.serebii.net/quest/pokemon/138.png",
     "types": [
       "rock",
       "water"
@@ -1743,7 +1605,6 @@ allPokemon = {
   "Omastar": {
     "dex": "139",
     "number": 139,
-    "img": "https://www.serebii.net/quest/pokemon/139.png",
     "types": [
       "rock",
       "water"
@@ -1756,7 +1617,6 @@ allPokemon = {
   "Kabuto": {
     "dex": "140",
     "number": 140,
-    "img": "https://www.serebii.net/quest/pokemon/140.png",
     "types": [
       "rock",
       "water"
@@ -1769,7 +1629,6 @@ allPokemon = {
   "Kabutops": {
     "dex": "141",
     "number": 141,
-    "img": "https://www.serebii.net/quest/pokemon/141.png",
     "types": [
       "rock",
       "water"
@@ -1782,7 +1641,6 @@ allPokemon = {
   "Aerodactyl": {
     "dex": "142",
     "number": 142,
-    "img": "https://www.serebii.net/quest/pokemon/142.png",
     "types": [
       "rock",
       "flying"
@@ -1795,7 +1653,6 @@ allPokemon = {
   "Snorlax": {
     "dex": "143",
     "number": 143,
-    "img": "https://www.serebii.net/quest/pokemon/143.png",
     "types": [
       "normal"
     ],
@@ -1807,7 +1664,6 @@ allPokemon = {
   "Articuno": {
     "dex": "144",
     "number": 144,
-    "img": "https://www.serebii.net/quest/pokemon/144.png",
     "types": [
       "ice",
       "flying"
@@ -1820,7 +1676,6 @@ allPokemon = {
   "Zapdos": {
     "dex": "145",
     "number": 145,
-    "img": "https://www.serebii.net/quest/pokemon/145.png",
     "types": [
       "electric",
       "flying"
@@ -1833,7 +1688,6 @@ allPokemon = {
   "Moltres": {
     "dex": "146",
     "number": 146,
-    "img": "https://www.serebii.net/quest/pokemon/146.png",
     "types": [
       "fire",
       "flying"
@@ -1846,7 +1700,6 @@ allPokemon = {
   "Dratini": {
     "dex": "147",
     "number": 147,
-    "img": "https://www.serebii.net/quest/pokemon/147.png",
     "types": [
       "dragon"
     ],
@@ -1858,7 +1711,6 @@ allPokemon = {
   "Dragonair": {
     "dex": "148",
     "number": 148,
-    "img": "https://www.serebii.net/quest/pokemon/148.png",
     "types": [
       "dragon"
     ],
@@ -1870,7 +1722,6 @@ allPokemon = {
   "Dragonite": {
     "dex": "149",
     "number": 149,
-    "img": "https://www.serebii.net/quest/pokemon/149.png",
     "types": [
       "dragon",
       "flying"
@@ -1883,7 +1734,6 @@ allPokemon = {
   "Mewtwo": {
     "dex": "150",
     "number": 150,
-    "img": "https://www.serebii.net/quest/pokemon/150.png",
     "types": [
       "psychic"
     ],
@@ -1895,7 +1745,6 @@ allPokemon = {
   "Mew": {
     "dex": "151",
     "number": 151,
-    "img": "https://www.serebii.net/quest/pokemon/151.png",
     "types": [
       "psychic"
     ],
