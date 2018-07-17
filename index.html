@@ -21,6 +21,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="https://pokemonquest.pokemon.com/assets/common/favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="96x96" href="https://pokemonquest.pokemon.com/assets/common/favicon/favicon-96x96.png">
   <link rel="icon" type="image/png" sizes="16x16" href="https://pokemonquest.pokemon.com/assets/common/favicon/favicon-16x16.png">
+  <link href="" rel="stylesheet" id="set-theme">
 </head>
 
 <body>
@@ -43,7 +44,7 @@
               <tr></tr>
               <tr>
                 <td width="80px" rowspan="2"><img style="width:80px;height:80px;" id="pokemon_img" src="images/icons/pokeball.svg"></img></td>
-                <th>Pokémon</th>
+                <th>Pokémon<a href="#" class="float-right" data-toggle="modal" data-target="#settingsModal"><img height="30px" class="icon invert" src="images/icons/settings.svg"/></a></th>
               </tr>
               <tr>
                 <td><select name="pokemon" id="pokemon" class="form-control" tabindex="1"></select></td>
@@ -78,6 +79,41 @@
       </div>
     </div>
   </main>
+
+  <!-- Settings Modal -->
+  <div class="modal fade" id="settingsModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content bg-dark text-light">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Settings</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <table class="table table-bordered table-dark table-striped" width="100%">
+            <tbody>
+              <tr>
+                <th colspan="2"><select oninput="saveSetting(this);" class="form-control" id="theme" name="theme"></select></th>
+              </tr>
+              <tr>
+                <th>Group IV by Pot</th>
+                <td width="20px"><input oninput="saveSetting(this);updateIVs();" type="checkbox" value="1" id="group_iv_by_pot" name="group_iv_by_pot" checked/><label for="group_iv_by_pot"></label></td>
+              </tr>
+              <tr>
+                <th>Show IV as Percent</th>
+                <td><input oninput="saveSetting(this);updateIVs();" type="checkbox" value="1" id="show_iv_as_percent" name="show_iv_as_percent" checked/><label for="show_iv_as_percent"></label></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/settings.js"></script>
+  <script src="js/themes.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/popper.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.min.js"></script>

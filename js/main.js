@@ -9,7 +9,7 @@ $(document).ready(function(){
 
   $('#pokemon').change(function(){
     var pokemon = document.getElementById('pokemon').value;
-    // Remember last selected pokemon
+    // Save setting - Remember last selected pokemon
     if (window.localStorage){
       window.localStorage.pokemon = pokemon;
     }
@@ -33,21 +33,15 @@ $(document).ready(function(){
     attack.value = '';
     level.value = '';
 
-    updateFields();
-  });
+    updateIVs();
+  }).val(getSetting('pokemon', 'Bulbasaur')).change();
 
   $('input').on('input', function(){
-    updateFields();
+    updateIVs();
   });
-
-  // Set to last selected pokemon
-  if (window.localStorage){
-    document.getElementById('pokemon').value = window.localStorage.pokemon || 'Bulbasaur';
-  }
-  $('#pokemon').change();
 });
 
-function updateFields(){
+function updateIVs(){
   var pokemon = allPokemon[document.getElementById('pokemon').value],
       level = +document.getElementById('level').value,
       hitpoints = +document.getElementById('hitpoints').value,
@@ -59,17 +53,21 @@ function updateFields(){
 }
 
 function calcIV(base, current, level){
+  var group_by_pot = getSetting('group_iv_by_pot', true);
+  var percentage = getSetting('show_iv_as_percent', true);
 	var diff = current - (base + level);
-	if (diff >= 0 && diff <= 10) // Brass Pot
-    return (diff * 10) + '% (brass)';
+  if (!group_by_pot && diff >= 0 && diff <= 400)
+    return (percentage ? (diff / 4) + '%' : diff + '/400') + ' (overall)';
+  else if (diff >= 0 && diff <= 10) // Brass Pot
+    return (percentage ? (diff * 10) + '%' : diff + '/10') + ' (brass)';
 	else if (diff >= 50 && diff <= 100) // Bronze Pot
-    return ((diff - 50) * 2) + '% (bronze)';
-    return (diff - 150) + '% (silver)';
-	else if (diff >= 251 && diff <= 299) // No pokemon should be in this range (maybe silver, but have yet to find any)
+    return (percentage ? ((diff - 50) * 2) + '%' : (diff - 50) + '/50') + ' (bronze)';
 	else if (diff >= 150 && diff <= 250) // Silver Pot
+    return (diff - 150) + (percentage ? '%' : '/100') + ' (silver)';
+	else if (diff >= 251 && diff <= 299) // No pokemon should be in this range
     return '¯\\_(ツ)_/¯';
 	else if (diff >= 300 && diff <= 400) // Gold Pot
-    return (diff - 300) + '% (gold)';
+    return (diff - 300) + (percentage ? '%' : '/100') + ' (gold)';
   else // Still entering value ?
     return 'N/A';
 }
