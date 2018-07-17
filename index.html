@@ -94,15 +94,15 @@
           <table class="table table-bordered table-dark table-striped" width="100%">
             <tbody>
               <tr>
-                <th colspan="2"><select oninput="saveSetting(this);" class="form-control" id="theme" name="theme"></select></th>
+                <th colspan="2"><select onchange="saveSetting(this);" class="form-control" id="theme" name="theme"></select></th>
               </tr>
               <tr>
                 <th>Group IV by Pot</th>
-                <td width="20px"><input oninput="saveSetting(this);updateIVs();" type="checkbox" value="1" id="group_iv_by_pot" name="group_iv_by_pot" checked/><label for="group_iv_by_pot"></label></td>
+                <td width="20px"><input onchange="saveSetting(this);updateIVs();" type="checkbox" value="1" id="group_iv_by_pot" name="group_iv_by_pot" checked/><label for="group_iv_by_pot"></label></td>
               </tr>
               <tr>
                 <th>Show IV as Percent</th>
-                <td><input oninput="saveSetting(this);updateIVs();" type="checkbox" value="1" id="show_iv_as_percent" name="show_iv_as_percent" checked/><label for="show_iv_as_percent"></label></td>
+                <td><input onchange="saveSetting(this);updateIVs();" type="checkbox" value="1" id="show_iv_as_percent" name="show_iv_as_percent" checked/><label for="show_iv_as_percent"></label></td>
               </tr>
             </tbody>
           </table>
