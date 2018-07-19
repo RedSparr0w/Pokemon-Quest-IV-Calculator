@@ -9,9 +9,10 @@ $(document).ready(function(){
 
   $('#pokemon').change(function(){
     var pokemon = document.getElementById('pokemon').value;
+    pokemon = allPokemon[pokemon];
+
     // Save setting - Remember last selected pokemon
     saveSetting(document.getElementById('pokemon'));
-    pokemon = allPokemon[pokemon];
 
     // Update image top currently selected pokemon
     document.getElementById('pokemon_img').src = 'images/icons/pokeball.svg';
