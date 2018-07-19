@@ -41,5 +41,5 @@ function saveSetting(el){
 }
 
 function getSetting(setting, defaultValue){
-  return settings[setting] != undefined ? settings[setting] : defaultValue;
+  return settings[setting] !== undefined ? settings[setting] : defaultValue;
 }

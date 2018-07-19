@@ -105,7 +105,7 @@ function totalIV(hitpoints, attack){
     var IVs = {
         value: hitpoints.value + attack.value,
         max: hitpoints.max + attack.max,
-        pot: hitpoints.pot == attack.pot ? hitpoints.pot : 'unknown',
+        pot: hitpoints.pot === attack.pot ? hitpoints.pot : 'unknown',
       };
 
   IVs.string = (getSetting('show_iv_as_percent', true) ? +((IVs.value / IVs.max) * 100).toFixed(2) + '%' : IVs.value + '/' + IVs.max) + ' (' + IVs.pot + ')';
@@ -124,7 +124,7 @@ function getIV(base, current){
 }
 
 function toggleTotalIV(show){
-  show = show != undefined ? show : getSetting('show_total_iv', true);
+  show = show !== undefined ? show : getSetting('show_total_iv', true);
   if (show)
     $('#total_iv').fadeIn();
   else

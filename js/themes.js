@@ -39,7 +39,7 @@ var themes = {
 
   // Set theme from settings
   var theme = getSetting('theme', 'Default Theme');
-  if (themes[theme] == undefined)
+  if (themes[theme] === undefined)
     return;
   document.getElementById('set-theme').href = themes[theme];
   themeSelect.value = theme;
