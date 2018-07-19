@@ -38,35 +38,95 @@ $(document).ready(function(){
   $('input').on('input', function(){
     updateIVs();
   });
+
+  // Temp - Show/Hide total IV based on setting
+  toggleTotalIV();
 });
 
 function updateIVs(){
-  var pokemon = allPokemon[document.getElementById('pokemon').value],
-      level = +document.getElementById('level').value,
-      hitpoints = +document.getElementById('hitpoints').value,
-      attack = +document.getElementById('attack').value;
+  var baseStats = allPokemon[document.getElementById('pokemon').value],
+      myStats = {
+        level: +document.getElementById('level').value,
+        hitpoints: +document.getElementById('hitpoints').value,
+        attack: +document.getElementById('attack').value,
+      };
 
   // Update the valculated IV's
-  document.getElementById('hitpoints_iv').innerText = calcIV(pokemon['hitpoints'], hitpoints, level);
-  document.getElementById('attack_iv').innerText = calcIV(pokemon['attack'], attack, level);
+  var IVs = getIV(baseStats, myStats);
+  document.getElementById('hitpoints_iv').innerText = IVs.hitpoints.string || 'N/A';
+  document.getElementById('attack_iv').innerText = IVs.attack.string || 'N/A';
+  document.getElementById('total_iv').innerText = IVs.total.string || 'N/A';
 }
 
-function calcIV(base, current, level){
-  var group_by_pot = getSetting('group_iv_by_pot', true);
-  var percentage = getSetting('show_iv_as_percent', true);
-	var diff = current - (base + level);
-  if (!group_by_pot && diff >= 0 && diff <= 400)
-    return (percentage ? (diff / 4) + '%' : diff + '/400') + ' (overall)';
+function calculateIV(base, current, level){
+  var IVs,
+      diff = current - (base + level);
+  if (!getSetting('group_iv_by_pot', true) && diff >= 0 && diff <= 400)
+    IVs = {
+        value: diff,
+        max: 400,
+        pot: 'overall',
+      };
   else if (diff >= 0 && diff <= 10) // Brass Pot
-    return (percentage ? (diff * 10) + '%' : diff + '/10') + ' (brass)';
+    IVs = {
+        value: diff,
+        max: 10,
+        pot: 'brass',
+      };
 	else if (diff >= 50 && diff <= 100) // Bronze Pot
-    return (percentage ? ((diff - 50) * 2) + '%' : (diff - 50) + '/50') + ' (bronze)';
+    IVs = {
+        value: diff - 50,
+        max: 50,
+        pot: 'bronze',
+      };
 	else if (diff >= 150 && diff <= 250) // Silver Pot
-    return (diff - 150) + (percentage ? '%' : '/100') + ' (silver)';
-	else if (diff >= 251 && diff <= 299) // No pokemon should be in this range
-    return '¯\\_(ツ)_/¯';
+    IVs = {
+        value: diff - 150,
+        max: 100,
+        pot: 'silver',
+      };
 	else if (diff >= 300 && diff <= 400) // Gold Pot
-    return (diff - 300) + (percentage ? '%' : '/100') + ' (gold)';
+    IVs = {
+        value: diff - 300,
+        max: 100,
+        pot: 'gold',
+      };
   else // Still entering value ?
-    return 'N/A';
+    return false;
+
+  IVs.string = (getSetting('show_iv_as_percent', true) ? +((IVs.value / IVs.max) * 100).toFixed(2) + '%' : IVs.value + '/' + IVs.max) + ' (' + IVs.pot + ')';
+  return IVs;
+}
+
+function totalIV(hitpoints, attack){
+  if (!hitpoints || !attack)
+    return false;
+  else
+    var IVs = {
+        value: hitpoints.value + attack.value,
+        max: hitpoints.max + attack.max,
+        pot: hitpoints.pot == attack.pot ? hitpoints.pot : 'unknown',
+      };
+
+  IVs.string = (getSetting('show_iv_as_percent', true) ? +((IVs.value / IVs.max) * 100).toFixed(2) + '%' : IVs.value + '/' + IVs.max) + ' (' + IVs.pot + ')';
+  return IVs;
+}
+
+function getIV(base, current){
+  var hitpoints = calculateIV(base['hitpoints'], current['hitpoints'], current['level']),
+      attack = calculateIV(base['attack'], current['attack'], current['level']),
+      total = totalIV(hitpoints, attack);
+  return {
+    hitpoints,
+    attack,
+    total,
+  }
+}
+
+function toggleTotalIV(show){
+  show = show != undefined ? show : getSetting('show_total_iv', true);
+  if (show)
+    $('#total_iv').fadeIn();
+  else
+    $('#total_iv').fadeOut();
 }

@@ -71,6 +71,9 @@
                 <td id="hitpoints_iv">N/A</td>
                 <td id="attack_iv">N/A</td>
               </tr>
+              <tr>
+                <td colspan="2" id="total_iv">N/A</td>
+              </tr>
             </tbody>
           </table>
         </form>
@@ -101,6 +104,10 @@
               <tr>
                 <th>Show IV as Percent</th>
                 <td><input onchange="saveSetting(this);updateIVs();" type="checkbox" value="1" id="show_iv_as_percent" name="show_iv_as_percent" checked/><label for="show_iv_as_percent"></label></td>
+              </tr>
+              <tr>
+                <th>Show Total</th>
+                <td><input onchange="saveSetting(this);updateIVs();toggleTotalIV(this.checked);" type="checkbox" value="1" id="show_total_iv" name="show_total_iv" checked/><label for="show_total_iv"></label></td>
               </tr>
             </tbody>
           </table>
