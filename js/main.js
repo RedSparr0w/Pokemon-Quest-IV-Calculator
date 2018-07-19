@@ -10,9 +10,7 @@ $(document).ready(function(){
   $('#pokemon').change(function(){
     var pokemon = document.getElementById('pokemon').value;
     // Save setting - Remember last selected pokemon
-    if (window.localStorage){
-      window.localStorage.pokemon = pokemon;
-    }
+    saveSetting(document.getElementById('pokemon'));
     pokemon = allPokemon[pokemon];
 
     // Update image top currently selected pokemon
