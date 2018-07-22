@@ -15,8 +15,11 @@ $(document).ready(function(){
     saveSetting(document.getElementById('pokemon'));
 
     // Update image top currently selected pokemon
-    document.getElementById('pokemon_img').src = 'images/icons/pokeball.svg';
-    document.getElementById('pokemon_img').src = 'images/pokemon/' + pokemon.dex + '.svg';
+    var pokemon_image = document.getElementById('pokemon_img'),
+        serebii_link = document.getElementById('serebii_link');
+    pokemon_image.src = 'images/icons/pokeball.svg';
+    pokemon_image.src = 'images/pokemon/' + pokemon.dex + '.svg';
+    serebii_link.href = 'https://www.serebii.net/quest/pokemon/' + pokemon.dex + '.shtml';
 
     var hitpoints = document.getElementById('hitpoints'),
         attack = document.getElementById('attack'),
