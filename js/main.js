@@ -123,7 +123,7 @@ function getIV(base, current){
     hitpoints,
     attack,
     total,
-  }
+  };
 }
 
 function toggleTotalIV(show){

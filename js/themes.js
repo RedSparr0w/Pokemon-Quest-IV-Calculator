@@ -35,7 +35,7 @@ var themes = {
   themeSelect.onchange = function(){
     var theme = themeSelect.value;
     document.getElementById('set-theme').href = themes[theme];
-  }
+  };
 
   // Set theme from settings
   var theme = getSetting('theme', 'Default Theme');

@@ -780,4 +780,4 @@ var allPokemon = {
     "hitpoints": 650,
     "attack": 650
   }
-}
+};

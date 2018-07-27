@@ -1,6 +1,6 @@
 var settings = {};
 if (!window.localStorage)
-  window.localStorage = {};
+  window.localStorage = settings;
 
 (function() {
   Object.keys(window.localStorage).forEach(function(setting){
